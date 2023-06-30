@@ -4,7 +4,7 @@ function ProjectItem({ name, about, technologies }) {
   const techList = technologies.map((tech) => {
     return <span key={tech}>{tech}</span>
   })
-  
+  // console.log(techList)
   
   return (
     <div className="project-item">
